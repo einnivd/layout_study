@@ -32,7 +32,7 @@ a {
   background-color: coral;
 }
 .logo img {
-  /* 이미지 밑에 남는 공간을 채우려면 display : block */
+  /* img의 width 안에 img를 딱맞게 채우려면 display : block */
   display: block;
   width: 100%;
 }
