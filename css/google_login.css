@@ -32,9 +32,10 @@ a {
   background-color: coral;
 }
 .logo img {
-  /* img의 width 안에 img를 딱맞게 채우려면 display : block */
-  display: block;
+  /* width는 부모를 따라간다. 부모(logo)의 width에 딱 맞게 채우려면 width : 100%*/
   width: 100%;
+  /* img의 width 안에 img를 딱 맞게 채우려면 display : block */
+  display: block;
 }
 /* 로그인 메시지 */
 .login-txt {

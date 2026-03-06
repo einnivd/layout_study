@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 전체 로그인 박스 */
+.login-box{
+    width: 300px;
+    padding: 30px;
+    margin: 100px auto;
+    background-color: lightgray;
+}
+/* 구글 로그인 버튼 */
+.google-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    background-color: #fff;
+}
+/* 로고 */
+.google-logo{
+    width: 15%;
+    background-color: blue;
+}
+.google-logo img{
+    width: 100%;
+    display: block;
+}
+/* 로그인 메세지 */
+.login-txt{
+    padding: 10px;
+    /* background-color: blueviolet; */
+}
+/* or */
+.or-txt{
+    text-align: center;
+    margin: 10px;
+}
+/* 입력폼 */
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+/* 이름 입력창, 비밀번호 입력창 */
+.form input{
+    padding: 10px;
+}
+/* 로그인 버튼 */
+.login-btn{
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+}
+/* 비밀번호 찾기 버튼 */
+.forgot{
+    font-size: 12px;
+    margin: 10px auto ;
+    padding: 5px;
+    width: 100%;
+    /* 입력창, 버튼의 높이는 height보다는 padding으로 조절하자 */
+    /* height: 20px; */
+    display: block;
+    background-color: lightgrey;
+    border: lightgrey;
+}
