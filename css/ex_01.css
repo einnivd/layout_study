@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    background-color: rgb(206, 205, 205);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: green;
+}
+.box5{
+    background-color: blue;
+}

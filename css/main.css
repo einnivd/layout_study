@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 박스 flex 적용 */
+.container{
+    /* flex는 부모에게 적용한다 */
+    display: flex;
+    width: 200px;
+    background-color: darkgray;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #333;
+}
+.box1{
+    background-color: lightskyblue;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    background-color: lightpink;
+}
+.box3{
+    width: 40px;
+    height: 40px;
+    background-color: lightgoldenrodyellow;
+}
